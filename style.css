@@ -1,0 +1,36 @@
+body {
+    background-color:lightgrey;
+    padding: 25px;
+}
+
+/* Type Selector */
+h1 {
+    background-color: antiquewhite;
+}
+
+/* Class Selector */
+#textcolor {
+    color:rebeccapurple;
+}
+
+/* ID Selector */
+.testclass {
+    color:cornflowerblue;
+}
+
+/* Descendant Selector */
+div.firstdiv p {
+    background-color:indianred;
+    color:antiquewhite;
+    font-size: small;
+}
+
+/* Pseudoclass Selector */
+hgroup:hover {
+    background-color: chocolate;
+}
+
+/* Attribute Selector */
+a[href="#"] {
+    background-color:ghostwhite;
+}
